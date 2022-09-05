@@ -30,7 +30,7 @@
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
     "@percy/cli": "^1.1.4",
-    "@percy/ember": "^3.0.0",
+    "@percy/ember": "^4.0.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^2.2.4",
     "ember-cli": "~3.28.3",
