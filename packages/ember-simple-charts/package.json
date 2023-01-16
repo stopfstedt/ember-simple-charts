@@ -24,7 +24,7 @@
     "lint:js:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@ember/render-modifiers": "^2.0.0",
+    "@ember/render-modifiers": "^2.0.5",
     "@embroider/util": "^1.0.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
