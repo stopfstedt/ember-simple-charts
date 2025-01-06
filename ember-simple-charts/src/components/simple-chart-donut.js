@@ -65,8 +65,6 @@ export default class SimpleChartDonut extends Component {
       ]);
       const donutWidth = width * 0.2;
 
-      this.loading = true;
-
       const createArc = arc()
         .innerRadius(radius - donutWidth)
         .outerRadius(radius);
@@ -167,7 +165,6 @@ export default class SimpleChartDonut extends Component {
           text.style('cursor', 'pointer');
         }
       }
-      this.loading = false;
     },
   );
 }

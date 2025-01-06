@@ -63,8 +63,6 @@ export default class SimpleChartPie extends Component {
         Math.max(...values),
       ]);
 
-      this.loading = true;
-
       const createArc = arc().innerRadius(0).outerRadius(radius);
       const createPie = pie()
         .value((d) => d.data)
@@ -163,7 +161,6 @@ export default class SimpleChartPie extends Component {
           text.style('cursor', 'pointer');
         }
       }
-      this.loading = false;
     },
   );
 }
