@@ -52,6 +52,7 @@
     "decorator-transforms": "^2.2.2",
     "ember-concurrency": "^4.0.2",
     "ember-in-element-polyfill": "^1.0.1",
+    "ember-modifier": "^4.2.0",
     "ember-on-resize-modifier": "^2.0.2",
     "ember-resize-observer-polyfill": "^0.0.1"
   },
